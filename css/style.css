@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.contanier{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formCon{
+    width: 400px;
+    height: 350px;
+}
+
+.tableCon{
+    width: 400px;
+    height: 350px;
+    border: 2px solid tomato;
+}
+th{
+    width: 10em;
+    border: 2px solid tomato;
+}

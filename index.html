@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="contanier">
+        <div class="formCon">
+            <form action="" id="shopForm">
+                <fieldset>
+                    <legend>
+                        Book Form
+                    </legend>
+                    <label for="" id="bookNme">Book Name</label>
+                    <input type="text" name="namBook" id="nameBook">
+
+                 <br><br>   <label for="" id="bookPrice">Book Price</label>
+                    <select name="priceSelect" id="priceSelec">
+                        <option value="100">100JD</option>
+                        <option value="500">500JD</option>
+                        <option value="1000">1000JD</option>
+
+                    </select>
+                 <br>   <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="tableCon">
+            <table id="bookTab">
+                <thead id="headTab"></thead>
+                <tbody id="boadTab"></tbody>
+                <tfoot id="footTab"></tfoot>
+            </table>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
