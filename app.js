@@ -87,8 +87,20 @@ function renderBoady(){
 
 function renderFooter(sum){
   tableFoot.innerHTML='';
+  let trEmpity=document .createElement('tr');
+  tableFoot.appendChild(trEmpity);
+
+  let tdEmpity=document.createElement('td');
+  trEmpity.appendChild( tdEmpity);
+  tdEmpity.textContent=' ';
+
+
   let trFoot=document .createElement('tr');
   tableFoot.appendChild(trFoot);
+
+  let tdFoot1=document.createElement('td');
+  trFoot.appendChild( tdFoot1);
+  tdFoot1.textContent=' ';
 
   let tdFoot=document.createElement('td');
   trFoot.appendChild(tdFoot);
